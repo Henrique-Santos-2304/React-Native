@@ -1,0 +1,19 @@
+{
+  "expo": {
+    "name": "cashControl",
+    "slug": "cashControl",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "android": {
+      "package": "com.henriquedevnative.cashControl"
+    }
+  },
+  "name": "cashControl",
+  "android": {
+    "config": {
+      "googleMobileAdsAppId": "ca-app-pub-3940256099942544~3347511713"
+    }
+  }
+}

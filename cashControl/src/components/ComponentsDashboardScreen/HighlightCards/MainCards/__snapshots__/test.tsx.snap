@@ -1,0 +1,495 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Main Cards Components create the snapshot to Component 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "marginBottom": 0,
+        "marginLeft": "auto",
+        "marginRight": "auto",
+        "marginTop": 22,
+        "width": "92%",
+      },
+    ]
+  }
+  testID="container-card"
+>
+  <View
+    forwardedRef={[Function]}
+    style={
+      Object {
+        "opacity": 0,
+        "transform": Array [
+          Object {
+            "translateX": 500,
+          },
+        ],
+      }
+    }
+  >
+    <RCTScrollView
+      contentContainerStyle={
+        Object {
+          "paddingHorizontal": 24,
+        }
+      }
+      horizontal={true}
+      showsHorizontalScrollIndicator={false}
+      style={
+        Array [
+          Object {},
+        ]
+      }
+      testID="wrapper-cards"
+    >
+      <View>
+        <View
+          style={
+            Array [
+              Object {
+                "alignItems": "center",
+                "borderRadius": 8,
+                "justifyContent": "center",
+                "marginRight": 24,
+                "maxHeight": 334,
+                "width": 549,
+              },
+            ]
+          }
+          testID="container"
+          type="up"
+        >
+          <Image
+            radius="8px"
+            source={1}
+            style={
+              Array [
+                Object {
+                  "borderRadius": 8,
+                  "height": "100%",
+                  "position": "absolute",
+                  "width": "100%",
+                },
+              ]
+            }
+          />
+          <View
+            radius="8px"
+            style={
+              Array [
+                Array [
+                  Object {
+                    "borderRadius": 8,
+                    "height": "100%",
+                    "width": "100%",
+                  },
+                ],
+                Object {
+                  "backgroundColor": "transparent",
+                },
+              ]
+            }
+          >
+            <ViewManagerAdapter_ExpoBlurView
+              proxiedProperties={
+                Object {
+                  "intensity": 90,
+                  "tint": "light",
+                }
+              }
+              style={
+                Object {
+                  "bottom": 0,
+                  "left": 0,
+                  "position": "absolute",
+                  "right": 0,
+                  "top": 0,
+                }
+              }
+            />
+            <View
+              style={
+                Array [
+                  Object {
+                    "borderRadius": 8,
+                    "paddingBottom": 0,
+                    "paddingLeft": 14,
+                    "paddingRight": 14,
+                    "paddingTop": 0,
+                    "width": "100%",
+                  },
+                ]
+              }
+            >
+              <View
+                style={
+                  Array [
+                    Object {
+                      "flexDirection": "row",
+                      "justifyContent": "space-between",
+                      "marginTop": 16,
+                    },
+                  ]
+                }
+              >
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "color": "#333",
+                        "fontFamily": "Poppins_400Regular",
+                        "fontSize": 27,
+                      },
+                    ]
+                  }
+                  testID="card-title"
+                  type="up"
+                >
+                  Entrada
+                </Text>
+                <Text />
+              </View>
+              <View
+                style={
+                  Array [
+                    Object {
+                      "marginBottom": 18,
+                    },
+                  ]
+                }
+              >
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "color": "#333",
+                        "fontFamily": "Poppins_500Medium",
+                        "fontSize": 63,
+                        "marginTop": 38,
+                      },
+                    ]
+                  }
+                  testID="amount-title"
+                  type="up"
+                />
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "color": "rgba(0,0,0,0.4)",
+                        "fontFamily": "Poppins_400Regular",
+                        "fontSize": 22,
+                      },
+                    ]
+                  }
+                  testID="lastTransaction-title"
+                  type="up"
+                >
+                  Nenhuma Transação encontrada
+                </Text>
+              </View>
+            </View>
+          </View>
+        </View>
+        <View
+          style={
+            Array [
+              Object {
+                "alignItems": "center",
+                "borderRadius": 8,
+                "justifyContent": "center",
+                "marginRight": 24,
+                "maxHeight": 334,
+                "width": 549,
+              },
+            ]
+          }
+          testID="container"
+          type="down"
+        >
+          <Image
+            radius="8px"
+            source={1}
+            style={
+              Array [
+                Object {
+                  "borderRadius": 8,
+                  "height": "100%",
+                  "position": "absolute",
+                  "width": "100%",
+                },
+              ]
+            }
+          />
+          <View
+            radius="8px"
+            style={
+              Array [
+                Array [
+                  Object {
+                    "borderRadius": 8,
+                    "height": "100%",
+                    "width": "100%",
+                  },
+                ],
+                Object {
+                  "backgroundColor": "transparent",
+                },
+              ]
+            }
+          >
+            <ViewManagerAdapter_ExpoBlurView
+              proxiedProperties={
+                Object {
+                  "intensity": 90,
+                  "tint": "light",
+                }
+              }
+              style={
+                Object {
+                  "bottom": 0,
+                  "left": 0,
+                  "position": "absolute",
+                  "right": 0,
+                  "top": 0,
+                }
+              }
+            />
+            <View
+              style={
+                Array [
+                  Object {
+                    "borderRadius": 8,
+                    "paddingBottom": 0,
+                    "paddingLeft": 14,
+                    "paddingRight": 14,
+                    "paddingTop": 0,
+                    "width": "100%",
+                  },
+                ]
+              }
+            >
+              <View
+                style={
+                  Array [
+                    Object {
+                      "flexDirection": "row",
+                      "justifyContent": "space-between",
+                      "marginTop": 16,
+                    },
+                  ]
+                }
+              >
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "color": "#333",
+                        "fontFamily": "Poppins_400Regular",
+                        "fontSize": 27,
+                      },
+                    ]
+                  }
+                  testID="card-title"
+                  type="down"
+                >
+                  Saida
+                </Text>
+                <Text />
+              </View>
+              <View
+                style={
+                  Array [
+                    Object {
+                      "marginBottom": 18,
+                    },
+                  ]
+                }
+              >
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "color": "#333",
+                        "fontFamily": "Poppins_500Medium",
+                        "fontSize": 63,
+                        "marginTop": 38,
+                      },
+                    ]
+                  }
+                  testID="amount-title"
+                  type="down"
+                />
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "color": "rgba(0,0,0,0.4)",
+                        "fontFamily": "Poppins_400Regular",
+                        "fontSize": 22,
+                      },
+                    ]
+                  }
+                  testID="lastTransaction-title"
+                  type="down"
+                >
+                  Nenhuma Transação encontrada
+                </Text>
+              </View>
+            </View>
+          </View>
+        </View>
+        <View
+          style={
+            Array [
+              Object {
+                "alignItems": "center",
+                "borderRadius": 8,
+                "justifyContent": "center",
+                "marginRight": 24,
+                "maxHeight": 334,
+                "width": 549,
+              },
+            ]
+          }
+          testID="container"
+          type="total"
+        >
+          <Image
+            radius="8px"
+            source={1}
+            style={
+              Array [
+                Object {
+                  "borderRadius": 8,
+                  "height": "100%",
+                  "position": "absolute",
+                  "width": "100%",
+                },
+              ]
+            }
+          />
+          <View
+            radius="8px"
+            style={
+              Array [
+                Array [
+                  Object {
+                    "borderRadius": 8,
+                    "height": "100%",
+                    "width": "100%",
+                  },
+                ],
+                Object {
+                  "backgroundColor": "transparent",
+                },
+              ]
+            }
+          >
+            <ViewManagerAdapter_ExpoBlurView
+              proxiedProperties={
+                Object {
+                  "intensity": 55,
+                  "tint": "dark",
+                }
+              }
+              style={
+                Object {
+                  "bottom": 0,
+                  "left": 0,
+                  "position": "absolute",
+                  "right": 0,
+                  "top": 0,
+                }
+              }
+            />
+            <View
+              style={
+                Array [
+                  Object {
+                    "borderRadius": 8,
+                    "paddingBottom": 0,
+                    "paddingLeft": 14,
+                    "paddingRight": 14,
+                    "paddingTop": 0,
+                    "width": "100%",
+                  },
+                ]
+              }
+            >
+              <View
+                style={
+                  Array [
+                    Object {
+                      "flexDirection": "row",
+                      "justifyContent": "space-between",
+                      "marginTop": 16,
+                    },
+                  ]
+                }
+              >
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "color": "#f8f8f8",
+                        "fontFamily": "Poppins_700Bold",
+                        "fontSize": 27,
+                      },
+                    ]
+                  }
+                  testID="card-title"
+                  type="total"
+                >
+                  Total
+                </Text>
+                <Text />
+              </View>
+              <View
+                style={
+                  Array [
+                    Object {
+                      "marginBottom": 18,
+                    },
+                  ]
+                }
+              >
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "color": "#f8f8f8",
+                        "fontFamily": "Poppins_500Medium",
+                        "fontSize": 63,
+                        "marginTop": 38,
+                      },
+                    ]
+                  }
+                  testID="amount-title"
+                  type="total"
+                />
+                <Text
+                  style={
+                    Array [
+                      Object {
+                        "color": "#f8f8f8",
+                        "fontFamily": "Poppins_400Regular",
+                        "fontSize": 22,
+                      },
+                    ]
+                  }
+                  testID="lastTransaction-title"
+                  type="total"
+                >
+                  01 a 16
+                </Text>
+              </View>
+            </View>
+          </View>
+        </View>
+      </View>
+    </RCTScrollView>
+  </View>
+</View>
+`;
